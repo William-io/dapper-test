@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "ck7/5mEEonuwbaghy1igru6En1nzdI2q4cTN820kTsC2VhIhgu0UiOr4mOLWEOza1BPlb1lzGrsGp57tcxvsEA==",
+  "dgSpecHash": "tsKcG6wx0ti9CxKTcoOcsnUgOsu/zKUBKguJNH+DSCOP2rP2u/KJUi0Ws4ouLolpRJpYP9TOxW3FAhmJdz3MTw==",
   "success": true,
   "projectFilePath": "F:\\source\\repos\\Code Snippets\\CSharp-Data\\dappers\\Dappers.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\capul\\.nuget\\packages\\dapper\\2.0.90\\dapper.2.0.90.nupkg.sha512",
     "C:\\Users\\capul\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\capul\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.3\\microsoft.data.sqlclient.2.1.3.nupkg.sha512",
     "C:\\Users\\capul\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",

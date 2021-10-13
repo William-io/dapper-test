@@ -41,3 +41,4 @@ F:\source\repos\Code Snippets\CSharp-Data\dappers\obj\Debug\net6.0\ref\Dappers.d
 F:\source\repos\Code Snippets\CSharp-Data\dappers\obj\Debug\net6.0\Dappers.pdb
 F:\source\repos\Code Snippets\CSharp-Data\dappers\obj\Debug\net6.0\Dappers.genruntimeconfig.cache
 F:\source\repos\Code Snippets\CSharp-Data\dappers\obj\Debug\net6.0\Dappers.csproj.AssemblyReference.cache
+F:\source\repos\Code Snippets\CSharp-Data\dappers\bin\Debug\net6.0\Dapper.dll
