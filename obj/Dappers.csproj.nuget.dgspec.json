@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\source\\repos\\Code Snippets\\CSharp-Data\\Dappers\\Dappers.csproj": {}
+    "D:\\source\\repos\\Code Snippets\\CSharp-Data\\Dappers\\Dappers.csproj": {}
   },
   "projects": {
-    "F:\\source\\repos\\Code Snippets\\CSharp-Data\\Dappers\\Dappers.csproj": {
+    "D:\\source\\repos\\Code Snippets\\CSharp-Data\\Dappers\\Dappers.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\source\\repos\\Code Snippets\\CSharp-Data\\Dappers\\Dappers.csproj",
+        "projectUniqueName": "D:\\source\\repos\\Code Snippets\\CSharp-Data\\Dappers\\Dappers.csproj",
         "projectName": "Dappers",
-        "projectPath": "F:\\source\\repos\\Code Snippets\\CSharp-Data\\Dappers\\Dappers.csproj",
+        "projectPath": "D:\\source\\repos\\Code Snippets\\CSharp-Data\\Dappers\\Dappers.csproj",
         "packagesPath": "C:\\Users\\capul\\.nuget\\packages\\",
-        "outputPath": "F:\\source\\repos\\Code Snippets\\CSharp-Data\\Dappers\\obj\\",
+        "outputPath": "D:\\source\\repos\\Code Snippets\\CSharp-Data\\Dappers\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\capul\\AppData\\Roaming\\NuGet\\NuGet.Config",

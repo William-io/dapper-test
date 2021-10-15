@@ -1236,11 +1236,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\source\\repos\\Code Snippets\\CSharp-Data\\dappers\\Dappers.csproj",
+      "projectUniqueName": "D:\\source\\repos\\Code Snippets\\CSharp-Data\\Dappers\\Dappers.csproj",
       "projectName": "Dappers",
-      "projectPath": "F:\\source\\repos\\Code Snippets\\CSharp-Data\\dappers\\Dappers.csproj",
+      "projectPath": "D:\\source\\repos\\Code Snippets\\CSharp-Data\\Dappers\\Dappers.csproj",
       "packagesPath": "C:\\Users\\capul\\.nuget\\packages\\",
-      "outputPath": "F:\\source\\repos\\Code Snippets\\CSharp-Data\\dappers\\obj\\",
+      "outputPath": "D:\\source\\repos\\Code Snippets\\CSharp-Data\\Dappers\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\capul\\AppData\\Roaming\\NuGet\\NuGet.Config",
