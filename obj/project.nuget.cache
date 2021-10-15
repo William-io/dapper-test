@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tsKcG6wx0ti9CxKTcoOcsnUgOsu/zKUBKguJNH+DSCOP2rP2u/KJUi0Ws4ouLolpRJpYP9TOxW3FAhmJdz3MTw==",
+  "dgSpecHash": "4dAB50Axr6F9kzzYk9uz7CM8mt1pOnPnvIDhWw44GahI9DvD06agEH6vsJM787LRMr7hqphtOKffv3K1UgDH6g==",
   "success": true,
-  "projectFilePath": "F:\\source\\repos\\Code Snippets\\CSharp-Data\\dappers\\Dappers.csproj",
+  "projectFilePath": "F:\\source\\repos\\Code Snippets\\CSharp-Data\\Dappers\\Dappers.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\capul\\.nuget\\packages\\dapper\\2.0.90\\dapper.2.0.90.nupkg.sha512",
     "C:\\Users\\capul\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
