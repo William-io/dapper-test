@@ -2,7 +2,7 @@
 using Dapper;
 using Dappers.Models;
 using Microsoft.Data.SqlClient;
-
+using System.Data;
 
 const string connectionString = "Data Source=(localdb)\\MSSQLLocalDB;Database=Dapper;Trusted_Connection=True;MultipleActiveResultSets=True;";
 
@@ -17,7 +17,8 @@ using (var connection = new SqlConnection(connectionString))
     //UpdateCategory(connection);
     //GetCategory(connection);
     //DeleteCategory(connection);
-    CreateManyCategory(connection);
+    //CreateManyCategory(connection);
+    //ExecuteProcedure(connection);
 
 }
 
@@ -155,4 +156,68 @@ static void CreateManyCategory(SqlConnection connection)
             });
 
     Console.WriteLine($"{rows} linhas inseridas");
+}
+
+//Lendo Procedure 1.1
+static void ExecuteProcedure(SqlConnection connection)
+{
+    var procedure = "{spDeleteStudent]";
+    var sql = "EXEC [spDeleteStudent] @StudentId";
+    var pars = new { StudentId = "6bd552ea-7187-4bae-abb6-54e8f8b9f530" };
+    var affectedRows = connection.Execute(
+        procedure,
+        pars,
+        commandType: System.Data.CommandType.StoredProcedure);
+    Console.WriteLine($"{affectedRows} linhas afetadas");
+}
+//1.2
+static void ExecuteReadProcedure(SqlConnection connection)
+{
+    var procedure = "[spGetCoursesByCategory]";
+    var pars = new { CategoryId = "09ce0b7b-cfca-497b-92c0-3290ad9d5142" };
+    var courses = connection.Query(
+        procedure,
+        pars,
+        commandType: CommandType.StoredProcedure);
+
+    foreach (var item in courses)
+    {
+        Console.WriteLine(item.Title);
+    }
+}
+
+static void ExecuteScalar(SqlConnection connection)
+{
+    var category = new Category();
+    category.Title = "Amazon AWS";
+    category.Url = "amazon";
+    category.Description = "Categoria destinada a serviços do AWS";
+    category.Order = 8;
+    category.Summary = "AWS Cloud";
+    category.Featured = false;
+
+    var insertSql = @"
+                INSERT INTO 
+                    [Category] 
+                OUTPUT inserted.[Id]
+                VALUES(
+                    NEWID(), 
+                    @Title, 
+                    @Url, 
+                    @Summary, 
+                    @Order, 
+                    @Description, 
+                    @Featured) 
+                ";
+
+    var id = connection.ExecuteScalar<Guid>(insertSql, new
+    {
+        category.Title,
+        category.Url,
+        category.Summary,
+        category.Order,
+        category.Description,
+        category.Featured
+    });
+    Console.WriteLine($"A categoria inserida foi: {id}");
 }
